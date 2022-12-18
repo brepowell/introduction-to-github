@@ -7,7 +7,7 @@
 
 # Introduction to GitHub
 
-_Get started using GitHub in less than an hour._
+_Get started using GitHub in less than an hour._  <!-- ITALICIZE TEXT -->
 
 <!-- 
   <<< Author notes: Start of the course >>> 
@@ -18,11 +18,14 @@ _Get started using GitHub in less than an hour._
   Do not use quotes on the <details> tag attributes.
 -->
 
+<!-- DROPDOWN MENU -->
 <!--step0
 
 People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” course guides you through everything you need to start contributing in less than an hour.
 
+<!-- ** IS FOR BOLD TEXT -->
 - **Who is this for**: New developers, new GitHub users, and students.
+<!-- BULLET POINT TEXT USES A HYPHEN AND SPACE -->
 - **What you'll learn**: We'll introduce repositories, branches, commits, and pull requests.
 - **What you'll build**: We'll make a short Markdown file you can use as your [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
 - **Prerequisites**: None. This course is a great introduction for your first day on GitHub.
@@ -33,8 +36,10 @@ People use GitHub to build some of the most advanced technologies in the world. 
 1. Above these instructions, right-click **Use this template** and open the link in a new tab.
    ![Use this template](https://user-images.githubusercontent.com/1221423/169618716-fb17528d-f332-4fc5-a11a-eaa23562665e.png)
 2. In the new tab, follow the prompts to create a new repository.
+<!-- BULLET POINT TEXT WITH A HOLLOW BULLET POINT - INDENT BY ONE TAB -->
    - For owner, choose your personal account or an organization to host the repository.
    - We recommend creating a public repository—private repositories will [use Actions minutes](https://docs.github.com/en/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
+   <!-- ADD AN IMAGE -->
    ![Create a new repository](https://user-images.githubusercontent.com/1221423/169618722-406dc508-add4-4074-83f0-c7a7ad87f6f3.png)
 3. After your new repository is created, wait about 20 seconds, then refresh the page. Follow the step-by-step instructions in the new repository's README.
 
@@ -51,6 +56,7 @@ endstep0-->
 <details id=1 open>
 <summary><h2>Step 1: Create a branch</h2></summary>
 
+<!-- TEXT FOR EMOJI :emoji: -->
 _Welcome to "Introduction to GitHub"! :wave:_
 
 **What is GitHub?**: GitHub is a collaboration platform that uses [Git](https://docs.github.com/get-started/quickstart/github-glossary#git) for versioning. GitHub is a popular place to share and contribute to [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source) software.
@@ -61,6 +67,7 @@ _Welcome to "Introduction to GitHub"! :wave:_
 
 **What is a branch?**: A [branch](https://docs.github.com/en/get-started/quickstart/github-glossary#branch) is a parallel version of your repository. By default, your repository has one branch named `main` and it is considered to be the definitive branch. You can create additional branches off of `main` in your repository. You can use branches to have different versions of a project at one time.
 
+<!-- TEXT with  `thes marks` will show up like code -->
 On additional branches, you can make edits without impacting the `main` version. Branches allow you to separate your work from the `main` branch. In other words, everyone's work is safe while you contribute.
 <br>:tv: [Video: Branches](https://www.youtube.com/watch?v=xgQmu81G1yY)
 
